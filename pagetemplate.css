@@ -1,0 +1,42 @@
+
+header {
+    display: flex;
+    justify-content: space-between;
+    padding: 10px;
+    width: 100%;
+    height: 80px;
+    background-color: beige;
+}
+
+ul {
+    display: flex;
+    list-style: none;
+}
+
+header li { 
+ padding-right: 25px;
+}
+
+a {
+    text-decoration: none;
+    color: black;
+    font-size: 14px;
+    font-weight: 700;
+}
+
+footer {
+    min-height: 100px;
+    width: 100%;
+    position: absolute;
+    background-color: slategray;
+    text-align: center;
+}
+
+footer p {
+    background-color: slategray;
+}
+
+footer span {
+    font-weight: bold;
+    background-color: slategray;
+}
